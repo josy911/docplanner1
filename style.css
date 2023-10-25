@@ -1,0 +1,109 @@
+* {
+  margin: 15px 30px 15px 30px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  /* background-color: #fff; */
+}
+
+.nav--bar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* padding-top: 10px; */
+  justify-content: space-around;
+}
+
+/* nav-tems */
+.nav--items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  height: 50%;
+  /* column-gap: 2px; */
+  /* padding: 5px; */
+}
+
+.logo2 {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: 90;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.sub-head {
+  display: flex;
+  justify-content: center;
+  color: rgba(12, 121, 88, 0.911);
+  margin-bottom: 30px;
+  height: 20px;
+  font-weight: 10px;
+}
+
+.contents {
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 30px;
+  padding-left: 260px;
+  padding-right: 280px;
+  width: 100%;
+}
+
+.boxes {
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  padding: 25px;
+  padding-left: 260px;
+  padding-right: 280px;
+  width: 100%;
+  /* border: solid 2px ; */
+}
+
+.boxes > div {
+  border: solid 2px;
+  border-radius: 25px;
+}
+
+/* For Patients */
+.patients {
+  border: solid mediumseagreen;
+  background-color: rgb(6, 145, 41);
+  padding: 10px;
+}
+
+/* .pic1 {
+  color: black;
+} */
+
+/* for doctors */
+.doctors {
+  border: solid mediumseagreen;
+  background-color: rgba(47, 36, 209, 0.911);
+  padding: 10px;
+}
+
+.clinics {
+  border: solid mediumseagreen;
+  background-color: rgb(2, 2, 41);
+  padding: 10px;
+}
+.pat1 {
+  color: white;
+}
+
+.pat2 {
+  color: white;
+}
+
+.pat3 {
+  color: white;
+}
